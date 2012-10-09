@@ -52,6 +52,7 @@ Whotheyfollow::Application.routes.draw do
   # just remember to delete public/index.html.
   root :to => 'lists#new'
   match 'auth/twitter/callback', to: 'sessions#create'
+  match 'lists/show', to: 'lists#show'
 
   # See how all your routes lay out with "rake routes"
 

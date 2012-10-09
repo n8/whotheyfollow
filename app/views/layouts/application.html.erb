@@ -42,12 +42,15 @@
 
   <div class="container">
 
-    <div class="sixteen columns">
-      <h1 class="remove-bottom" style="margin-top: 40px">Who They Follow</h1>
-      <hr />
+    <div class="offset-by-four eight columns">
+      <h2 class="remove-bottom" style="margin-top: 40px">
+        <%= link_to "Who They Follow", "/" %>
+      </h2>
+      
+      <div style="margin-top: 30px">
+        <%= yield %>
+      </div>
     </div>
-
-    <%= yield %>
 
   </div><!-- container -->
 
