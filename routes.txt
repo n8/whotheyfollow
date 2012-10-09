@@ -1,0 +1,10 @@
+                lists GET    /lists(.:format)                 lists#index
+                      POST   /lists(.:format)                 lists#create
+             new_list GET    /lists/new(.:format)             lists#new
+            edit_list GET    /lists/:id/edit(.:format)        lists#edit
+                 list GET    /lists/:id(.:format)             lists#show
+                      PUT    /lists/:id(.:format)             lists#update
+                      DELETE /lists/:id(.:format)             lists#destroy
+                 root        /                                lists#new
+auth_twitter_callback        /auth/twitter/callback(.:format) sessions#create
+           lists_show        /lists/show(.:format)            lists#show
