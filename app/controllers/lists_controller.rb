@@ -11,7 +11,6 @@ class ListsController < ApplicationController
   end
 
   def show
-    render action: show
   end
 
 end
