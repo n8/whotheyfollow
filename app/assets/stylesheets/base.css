@@ -52,7 +52,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 16px/24px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -147,7 +147,7 @@
 	  border-radius: 3px;
 	  color: #444;
 	  display: inline-block;
-	  font-size: 11px;
+	  font-size: 16px;
 	  font-weight: bold;
 	  text-decoration: none;
 	  text-shadow: 0 1px rgba(255, 255, 255, .75);
@@ -249,7 +249,7 @@
 	legend {
 		display: block;
 		font-weight: bold;
-		font-size: 13px;  }
+		font-size: 16px;  }
 	select {
 		width: 220px; }
 	input[type="checkbox"] {
@@ -257,7 +257,7 @@
 	label span,
 	legend span {
 		font-weight: normal;
-		font-size: 13px;
+		font-size: 16px;
 		color: #444; }
 
 /* #Misc
