@@ -1,5 +1,7 @@
 class ListsController < ApplicationController
 
+  caches_action :new
+  
   def new
 
     if params[:name].present?
