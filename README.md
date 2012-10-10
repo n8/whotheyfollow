@@ -11,10 +11,13 @@ Here's the source of the project if you want your own version.
 
 ##Getting Started
 
-Pretty easy. You need a Twitter oauth key and secret. This app expects them in some environment variables. 
+Pretty easy. You need a Twitter oauth key and secret. You'll also want your own secret_token.rb. This app expects them in some environment variables. 
 
 ENV['TWITTER_KEY']
+
 ENV['TWITTER_SECRET']
+
+ENV['SECRET_TOKEN']
 
 Here's a hosted version if you just want to use this: 
 
