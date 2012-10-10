@@ -1,4 +1,4 @@
-#Welcome to Who They Follow
+#People to Follow on Twitter
 
 Who inspires the people who inspire me. 
 
