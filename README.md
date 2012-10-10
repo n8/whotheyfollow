@@ -25,7 +25,7 @@ https://whotheyfollow.herokuapp.com
 
 
 
-#LICENSE - MIT
+##MIT License
 
 Copyright 2012 Nathan Kontny
 
